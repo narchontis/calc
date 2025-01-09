@@ -1,7 +1,7 @@
 class Calculator {
   constructor() {
       this.result = 0;
-  }
+};
 
   add(number) {
       this.result += number;
@@ -34,6 +34,11 @@ class Calculator {
   equals() {
       return this.result;
   }
+  
+modulo(number) {
+        this.result %= number;
+        return this;
+}
 }
 
 module.exports = Calculator;

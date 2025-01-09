@@ -4,9 +4,6 @@ This class has methods for addition, subtraction, multiplication, and division. 
 
 You can use this class in another file like so:
 
-```javascript
-
-```
 
 Please note that this is a very basic implementation and does not handle many edge cases. For example, it does not check if the input is a number before performing operations.
 */
